@@ -49,6 +49,7 @@ body {
 	line-height: 1.42857143;
 	letter-spacing: normal;
 	font-weight: normal;
+	width: 350px;
 }
 
 body > .container {
@@ -98,11 +99,6 @@ code {
 
 #detail {
     padding: 50px;
-	line-height: 1.1;
-}
-
-#detail figcaption {
-	padding-top: 4px;
 }
 
 #detail a {
@@ -110,11 +106,14 @@ code {
 	text-decoration: none;
 }
 
+#detail figcaption {
+	padding-top: 4px;
+}
+
 #detail a:hover {
     color: #b37300;
     text-decoration: none;
 }
-
 
 a.back {
     background-color: #36A184;
